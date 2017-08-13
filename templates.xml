@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Vor allen Tests" enabled="true" name="beforeall">@${testType:newType(org.junit.BeforeClass)}
+public void before_all_tests() throws Exception {
+	${cursor}
+}</template></templates>
